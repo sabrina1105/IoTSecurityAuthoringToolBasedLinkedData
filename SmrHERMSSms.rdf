@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:IoTSecurity="http://133.5.24.71/IoTSecurity/"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dbpedia="http://dbpedia.org/resource/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://133.5.24.71/IoTSecurityItem/SmartMeter">
+	<rdfs:label>SmartMeter</rdfs:label>
+	<rdfs:comment>https://en.wikipedia.org/wiki/Smart_meter</rdfs:comment>
+	<foaf:img>https://upload.wikimedia.org/wikipedia/commons/9/9a/Intelligenter_zaehler-_Smart_meter.jpg</foaf:img>
+	<rdfs:seeAlso>https://www.youtube.com/watch?v=C4LO1fejQJk</rdfs:seeAlso>
+	<IoTSecurity:Attack>Unauthorized access(internet)</IoTSecurity:Attack>
+	<IoTSecurity:Countermeasure>Vulnerability countermeasure</IoTSecurity:Countermeasure>
+	<IoTSecurity:Damage>Measurement data is peeked.</IoTSecurity:Damage>
+	<IoTSecurity:Countermeasure>User authentication</IoTSecurity:Countermeasure>
+	<IoTSecurity:Damage>Measurement data is tampered with.</IoTSecurity:Damage>
+	<IoTSecurity:Countermeasure>Firewall function</IoTSecurity:Countermeasure>
+	<IoTSecurity:Damage>Measurement data can not be viewed.</IoTSecurity:Damage>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://133.5.24.71/IoTSecurityItem/HERMS">
+	<rdfs:label>HERMS</rdfs:label>
+	<rdfs:comment>http://https://echonet.jp/hems_en/</rdfs:comment>
+	<foaf:img>http://https://www.renesas.com/en-us/media/about/web-magazine/edge/solution/11-hems/img_01.jpg</foaf:img>
+	<rdfs:seeAlso>http://https://www.youtube.com/watch?v=-upPgMr-Fis</rdfs:seeAlso>
+	<IoTSecurity:Attack>Virus infection</IoTSecurity:Attack>
+	<IoTSecurity:Countermeasure>Vulnerability countermeasure</IoTSecurity:Countermeasure>
+	<IoTSecurity:Damage>The data of device controlled by HEMS is peeked.</IoTSecurity:Damage>
+	<IoTSecurity:Countermeasure>Anti- virus</IoTSecurity:Countermeasure>
+	<IoTSecurity:Damage>The data of device controlled by HEMS is tampered with.</IoTSecurity:Damage>
+	<IoTSecurity:Countermeasure>Software digital signature</IoTSecurity:Countermeasure>
+	<IoTSecurity:Damage>The data of device controlled by HEMS can not be viewed.</IoTSecurity:Damage>
+	<IoTSecurity:Countermeasure>Secure development</IoTSecurity:Countermeasure>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://133.5.24.71/IoTSecurityItem/SmartSpeaker">
+	<rdfs:label>SmartSpeaker</rdfs:label>
+	<rdfs:comment>https://en.wikipedia.org/wiki/Smart_speaker</rdfs:comment>
+	<foaf:img>https://heavyeditorial.files.wordpress.com/2017/06/best-smart-speakers1.jpg?quality=65&amp;strip=all&amp;w=782</foaf:img>
+	<rdfs:seeAlso>https://www.youtube.com/watch?v=FQn6aFQwBQU</rdfs:seeAlso>
+	<IoTSecurity:Attack>Unauthorized access(internet)</IoTSecurity:Attack>
+	<IoTSecurity:Countermeasure>Vulnerability countermeasure</IoTSecurity:Countermeasure>
+	<IoTSecurity:Damage>The device settings /private information(password etc.)/Internal storage of data are peeked.</IoTSecurity:Damage>
+	<IoTSecurity:Countermeasure>User authentication</IoTSecurity:Countermeasure>
+	<IoTSecurity:Damage>The device settings /private information(password etc.)/Internal storage of data are tampered with.</IoTSecurity:Damage>
+	<IoTSecurity:Countermeasure>Firewall function</IoTSecurity:Countermeasure>
+	<IoTSecurity:Damage>The device settings /private information(password etc.)/Internal storage of data can not be viewed.</IoTSecurity:Damage>
+</rdf:Description>
+
+</rdf:RDF>
